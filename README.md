@@ -34,14 +34,15 @@ It showcases my background, skills, and projects, and includes an interactive co
 
 ---
 
-##  Live Demo
+## Live Demo
 The website is deployed on **Vercel** and can be accessed here:  
-👉 [Live Website]([https://your-vercel-link.vercel.ap](https://my-portfolio-seven-sage-50.vercel.app/)p)  
+👉 [Live Website](https://my-portfolio-seven-sage-50.vercel.app/)
 
 ---
 
-##  GitHub Repository
-👉 [GitHub Repository]([https://github.com/your-username/your-repo-name](https://github.com/jie-ui/my-portfolio))  
+## GitHub Repository
+👉 [GitHub Repository](https://github.com/jie-ui/my-portfolio)
+
 
 ---
 

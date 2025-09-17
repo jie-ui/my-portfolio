@@ -1,5 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import styles from './layout.module.css'
+import v7 from '@/assets/v7.jpg';
 
 export default function Layout() {
  
@@ -10,7 +11,7 @@ export default function Layout() {
       
       <header className={styles.topbar}>
         <div className={styles.row}>
-          <img src="/v7.jpg" alt="Logo" className={styles.logo} />
+          <img src={v7} alt="Logo" className={styles.logo} />
         </div>
       </header>
 

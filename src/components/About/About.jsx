@@ -1,4 +1,10 @@
 import styles from './About.module.css'
+import github from '@/assets/github.png';
+import linkedin from '@/assets/linkedin.png';
+import email from '@/assets/email.png';
+import resume from '@/assets/resume.png';
+import my_photo from '@/assets/my_photo.png';
+
 
 export default function About() {
   return (
@@ -7,7 +13,7 @@ export default function About() {
 
         {/* Left Photo */}
         <div className={styles.left}>
-          <img src="/my_photo.png" alt="my_photo"
+          <img src={my_photo} alt="my_photo"
             className={`${styles.photo} ${styles.fadeInUp}`} />
         </div>
 
@@ -32,17 +38,17 @@ export default function About() {
               rel="noopener noreferrer"
               className={styles.resumeIcon}
             >
-              <img src="/resume.png" alt="Resume" />
+              <img src={resume} alt="Resume" />
             </a>
 
             <a href="https://github.com/jie-ui" target="_blank" rel="noreferrer">
-              <img src="/github.png" alt="GitHub" width="28" />
+              <img src={github} alt="GitHub" width="28" />
             </a>
             <a href="https://www.linkedin.com/in/jie-yang-9799b521a" target="_blank" rel="noreferrer">
-              <img src="/linkedin.png" alt="LinkedIn" width="28" />
+              <img src={linkedin} alt="LinkedIn" width="28" />
             </a>
             <a href="mailto:jyang239@my.centennialcollege.ca">
-              <img src="/email.png" alt="Mail" width="28" />
+              <img src={email} alt="Mail" width="28" />
             </a>
 
 

@@ -1,5 +1,10 @@
-import { NavLink } from 'react-router-dom'
 import styles from './Contact.module.css'
+import github from '@/assets/github.png';
+import linkedin from '@/assets/linkedin.png';
+import email from '@/assets/email.png';
+
+
+
 
 export default function Contact() {
   return (
@@ -32,13 +37,13 @@ export default function Contact() {
           {/* icon */}
           <div className={styles.icons}>
             <a href="https://github.com/jie-ui" target="_blank" rel="noreferrer">
-              <img src="/github.png" alt="GitHub" />
+              <img src={github} alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/jie-yang-9799b521a" target="_blank" rel="noreferrer">
-              <img src="/linkedin.png" alt="LinkedIn" />
+              <img src={linkedin} alt="LinkedIn" />
             </a>
             <a href="mailto:jyang239@my.centennialcollege.ca">
-              <img src="/email.png" alt="Mail" />
+              <img src= {email} alt="Mail" />
             </a>
           </div>
         </div>

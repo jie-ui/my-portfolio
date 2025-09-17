@@ -1,26 +1,29 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Services.module.css";
+import web_development from '@/assets/web_development.png';
+import stack from '@/assets/stack.png';
+import mobile_friendly from '@/assets/mobile_friendly.png';
 
 const services = [
   {
     key: "web",
     title: "Web Development",
     desc: "Built responsive and maintainable web pages and components using React and CSS Modules",
-    img: "/web-development.png",     
+    img: web_development,     
     delay: 0                   
   },
   {
     key: "fullstack",
     title: "Full-Stack",
     desc: "Experienced with Node.js/Express and SQL for implementing CRUD operations, deploying applications, and building small-scale backend APIs.",
-    img: "/stack.png",
+    img: stack,
     delay: 0.1
   },
   {
     key: "mobile",
     title: "Mobile-friendly",
     desc: "Designed mobile-first layouts with optimized touch interactions and performance improvements。",
-    img: "/mobile-friendly.png",
+    img: mobile_friendly,
     delay: 0.2
   },
  

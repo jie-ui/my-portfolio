@@ -1,5 +1,9 @@
 import styles from './Home.module.css'
 import { NavLink } from 'react-router-dom'
+import github from '@/assets/github.png';
+import linkedin from '@/assets/linkedin.png';
+import email from '@/assets/email.png';
+import girl from '@/assets//girl.png';
 
 
 export default function Home() {
@@ -29,16 +33,16 @@ export default function Home() {
         <div className={`${styles.footer} ${styles.fadeInUp}`}>
           <div className={styles.icons}>
             <a href="https://github.com/jie-ui" target="_blank" rel="noreferrer">
-              <img src="/github.png" alt="GitHub" width="28" />
+              <img src={github} alt="GitHub" width="28" />
             </a>
             <a href="https://www.linkedin.com/in/jie-yang-9799b521an" target="_blank" rel="noreferrer">
-              <img src="/linkedin.png" alt="LinkedIn" width="28" />
+              <img src={linkedin} alt="LinkedIn" width="28" />
             </a>
             <a href="mailto:jyang239@my.centennialcollege.ca">
-              <img src="/email.png" alt="Mail" width="28" />
+              <img src={email} alt="Mail" width="28" />
             </a>
             <NavLink to="/about">
-              <img src="/girl.png" alt="About Me" width="28" />
+              <img src={girl} alt="About Me" width="28" />
             </NavLink>
 
           </div>

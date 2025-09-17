@@ -2,7 +2,7 @@ import { NavLink, useLocation } from 'react-router-dom'
 import styles from './layout.module.css'
 
 export default function Layout() {
-  const isHome = useLocation().pathname === '/'
+ 
 
   return (
     <>

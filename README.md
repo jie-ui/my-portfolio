@@ -1,20 +1,13 @@
-#  Personal Portfolio Website
+## Personal Portfolio Website (Full Stack)
 
-This is my personal portfolio website built with **React**.  
-It showcases my background, skills, and projects, and includes an interactive contact form.  
-
----
-
-##  Project Structure
-- **Home Page**: Introduction, mission statement, and quick navigation.
-- **About Me**: Personal background and goals.
-- **Projects**: A collection of featured projects with descriptions.
-- **Services**: List of services/skills offered.
-- **Contact Me**: 
-  - Contact information (GitHub, LinkedIn, Email).  
-  - Interactive contact form (Name, Email, Message).  
+This is my personal portfolio website built with React (frontend) and Node.js + Express (backend).
+It showcases my background, skills, and projects, and now includes a simple backend to handle contact form submissions
 
 ---
+
+📂 Project Structure
+client/   → React app (frontend)
+server/   → Node.js + Express (backend)
 
 ##  Features
 - Responsive design with modern UI (React + CSS Modules).
@@ -24,13 +17,13 @@ It showcases my background, skills, and projects, and includes an interactive co
 - Footer with copyright.
 
 ---
+ ## Tech Stack
 
-## 🛠 Technologies Used
-- **React** (Frontend framework)
-- **React Router** (Navigation)
-- **CSS Modules** (Styling)
-- **Git + GitHub** (Version control)
-- **Vercel** (Deployment)
+Frontend: React, React Router, CSS
+
+Backend: Node.js, Express.js
+
+Tools: Git, GitHub, Vercel, Concurrently
 
 ---
 
@@ -49,6 +42,15 @@ The website is deployed on **Vercel** and can be accessed here:
 
 
 ##  How to Run Locally
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+
+# Install dependencies
+npm run install-all
+
+# Start both client & server
+npm run dev
+
+
+Frontend → http://localhost:5173
+
+Backend → http://localhost:5000
+

@@ -5,8 +5,10 @@ It showcases my background, skills, and projects, and now includes a simple back
 
 ---
 
-📂 Project Structure
-client/   → React app (frontend)
+📂 Project Structure  
+
+client/   → React app (frontend)  
+
 server/   → Node.js + Express (backend)
 
 ##  Features

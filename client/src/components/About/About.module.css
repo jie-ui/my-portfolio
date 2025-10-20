@@ -1,0 +1,126 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+  padding: 60px 20px;
+}
+
+/*container */
+.aboutContainer {
+  flex: 1;
+  display: grid;
+ 
+  grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
+  align-items: center;
+  gap: 24px;                
+  max-width: 1000px;        
+  margin: 0 auto;          
+  width: 100%;
+}
+
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  text-align: center;       
+}
+
+/* photo */
+.photo {
+  width: 100%;
+  max-width: 360px;       
+  border-radius: 60%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  background-color: #0f172a;
+  box-shadow: 0 8px 18px rgba(0,0,0,.15);
+  transition: transform .3s ease;
+}
+.photo:hover { transform: scale(1.05); }
+
+/* text */
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 16px;      
+  color: #0f172a;
+  max-width: 700px;          
+}
+.desc {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;    
+  color: #334155;
+  max-width: 560px;        
+}
+
+/* icon */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;                /* 30 -> 24 */
+  margin: 12px 0 8px;
+  align-items: center;
+}
+
+.icons img {
+  width: 28px;
+  height: 28px;
+  transition: transform .2s ease, filter .2s ease;
+}
+.icons img:hover { 
+  transform: translateY(-3px); 
+  filter: saturate(115%); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 32px;         /* 40 -> 32 */
+}
+.copyRight { font-size: 14px; color: #101111; }
+
+/* animation */
+.fadeInUp { 
+  opacity: 0; 
+  transform: translateY(18px); 
+  animation: fadeInUp .8s ease forwards;
+ }
+@keyframes fadeInUp { to
+   { opacity: 1; 
+    transform: translateY(0); }
+   }
+.title.fadeInUp { 
+  animation-delay: 0s; 
+}
+.desc.fadeInUp { 
+  animation-delay: .4s;
+ }
+.photo.fadeInUp { 
+  animation-delay: .8s; 
+}
+footer.fadeInUp { 
+  animation-delay: 1.2s;
+ }
+
+/* response page */
+@media (max-width: 900px) {
+  .aboutContainer {
+    grid-template-columns: 1fr;  
+    gap: 20px;
+    max-width: 680px;          
+  }
+  .title { font-size: 36px; }
+}
+
+
+@media (min-width: 1400px) {
+  .aboutContainer { 
+    max-width: 920px;
+   }  
+}

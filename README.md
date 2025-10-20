@@ -43,10 +43,10 @@ The website is deployed on **Vercel** and can be accessed here:
 
 ##  How to Run Locally
 
-# Install dependencies
+Install dependencies
 npm run install-all
 
-# Start both client & server
+Start both client & server
 npm run dev
 
 
